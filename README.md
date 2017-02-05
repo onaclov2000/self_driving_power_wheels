@@ -1,7 +1,11 @@
 # self_driving_power_wheels
 
 # Motor Controller
-digikey [TBD]
+This motor controller is great thus far.
+http://www.digikey.com/product-detail/en/infineon-technologies/DCMOTORCONTRBTN8982TOBO1/DCMOTORCONTRBTN8982TOBO1-ND/5878319
+
+Shipping was fast too which was nice.
+
 Works well with Arduino, will try with raspberry pi when parts come in.
 Datasheets/etc that are helpful
 

@@ -7,6 +7,8 @@ Works well with Arduino, will try with raspberry pi when parts come in.
 # Linear Actuator
 http://amzn.to/2lcuoX5
 
+This will handle the movement using an arduino, I'd like to move to pi soon, but we'll see how it goes.
+https://github.com/onaclov2000/self_driving_power_wheels/blob/master/lin_act.ino
 
 ## Lin Act INO
 This file drives the linear actuator the full left and right that it needs.

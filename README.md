@@ -6,13 +6,16 @@ http://www.digikey.com/product-detail/en/infineon-technologies/DCMOTORCONTRBTN89
 
 Shipping was fast too which was nice.
 
-Works well with Arduino, will try with raspberry pi when parts come in.
+Works well with Arduino, will try with raspberry pi when parts come in. Worked using logic level converters, however I think I'm going to run out of some space, plus I need to be able to do PWM and it's not clear the PI will do it directly, bought a PWM board from adafruit to help with that, now PI needs just I2C I think.
+
 Datasheets/etc that are helpful
 
 http://www.infineon.com/dgdl/Infineon-H-Bridge+Software_setup_Dave-UM-v01_00-EN.pdf?fileId=5546d4624cb7f111014cc2238eca3248
 
 http://www.infineon.com/cms/en/product/productType.html?productType=5546d4624ad04ef9014b07c0c07922e0#ispnTab4
 
+# Opencv install on PI
+http://www.pyimagesearch.com/2015/10/26/how-to-install-opencv-3-on-raspbian-jessie/
 
 
 # Linear Actuator

@@ -6,7 +6,9 @@ http://www.digikey.com/product-detail/en/infineon-technologies/DCMOTORCONTRBTN89
 
 Shipping was fast too which was nice.
 
-Works well with Arduino, will try with raspberry pi when parts come in. Worked using logic level converters, however I think I'm going to run out of some space, plus I need to be able to do PWM and it's not clear the PI will do it directly, bought a PWM board from adafruit to help with that, now PI needs just I2C I think.
+Works well with Arduino, raspberry pi worked as well. Worked using logic level converters, however I think I'm going to run out of some space, plus I need to be able to do PWM and it's not clear the PI will do it directly, bought a PWM board from adafruit to help with that, now PI needs just I2C I think.
+
+https://github.com/adafruit/Adafruit_Python_PCA9685/blob/master/examples/simpletest.py
 
 Datasheets/etc that are helpful
 
@@ -21,7 +23,7 @@ http://www.pyimagesearch.com/2015/10/26/how-to-install-opencv-3-on-raspbian-jess
 # Linear Actuator
 http://amzn.to/2lcuoX5
 
-This will handle the movement using an arduino, I'd like to move to pi soon, but we'll see how it goes.
+This will handle the movement using an arduino,Pi Works, working on PWM board now.
 https://github.com/onaclov2000/self_driving_power_wheels/blob/master/lin_act.ino
 
 ## Lin Act INO

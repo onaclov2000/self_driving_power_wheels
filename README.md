@@ -49,6 +49,7 @@ IN_2 drives backwards (or in)
 IN_1 drives forwards (or out) 
 * This means that if I swap wiring it'll go opposite directions from stated.
 
+Used #8-32 .5 inch screws with a lock washer and nut. Found at Home Depot for pretty good deal (like a buck and a half for 8, so I needed 2 packs, and the washers were a 20 pack and about the same price)
 
 ## Driving Directions
 http://stackoverflow.com/questions/36035439/get-google-maps-walking-directions-json-instead-of-driving

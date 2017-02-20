@@ -8,7 +8,12 @@ Shipping was fast too which was nice.
 
 Works well with Arduino, raspberry pi worked as well. Worked using logic level converters, however I think I'm going to run out of some space, plus I need to be able to do PWM and it's not clear the PI will do it directly, bought a PWM board from adafruit to help with that, now PI needs just I2C I think.
 
+## PWM 12 Bit Board
+May need more boards, we'll see, I think really we need 2 PWM signals per board, everything else is just high or low, and really the linear actuator just needs voltage, so may not even care about PWM. Now that I think about it.
+
 https://github.com/adafruit/Adafruit_Python_PCA9685/blob/master/examples/simpletest.py
+
+https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads
 
 Datasheets/etc that are helpful
 

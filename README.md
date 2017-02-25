@@ -13,7 +13,12 @@ May need more boards, we'll see, I think really we need 2 PWM signals per board,
 
 https://github.com/adafruit/Adafruit_Python_PCA9685/blob/master/examples/simpletest.py
 
+https://github.com/adafruit/Adafruit_Python_GPIO
+
 https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads
+
+https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial
+
 
 Datasheets/etc that are helpful
 

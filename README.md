@@ -19,6 +19,9 @@ https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads
 
 https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial
 
+## RaspPi pinout
+https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/
+
 
 Datasheets/etc that are helpful
 

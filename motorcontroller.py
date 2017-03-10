@@ -13,7 +13,7 @@ class MotorController:
 #logging.basicConfig(level=logging.DEBUG)
 
 # Initialise the PCA9685 using the default address (0x40).
-   def __init__(self, min=1000, max=3000, channels):
+   def __init__(self, channels, min=1000, max=3000):
       self.pwm = Adafruit_PCA9685.PCA9685()
       self.channels = channels
       self.servo_min = min  # Min pulse length out of 4096

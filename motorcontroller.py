@@ -21,10 +21,9 @@ class MotorController:
 
       # Set frequency to 60hz, good for servos. Good for power wheel?
       self.pwm.set_pwm_freq(60)
-      # set everything to off
-     self.zeroize()
-     self.pwm.set_pwm(self.channels["INH_1"], 0, 4095)
-     self.pwm.set_pwm(self.channels["INH_2"], 0, 4095)
+      self.zeroize()
+      self.pwm.set_pwm(self.channels["INH_1"], 0, 4095)
+      self.pwm.set_pwm(self.channels["INH_2"], 0, 4095)
 
    def zeroize(self):
       for k in self.channels:

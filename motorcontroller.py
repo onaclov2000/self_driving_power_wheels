@@ -32,14 +32,14 @@ class MotorController:
    def forward(self, time):
       try:
          self.pwm.set_pwm(self.channels["IN_2"], 0, 0)
-         while True:
+         if True:
             self.pwm.set_pwm(self.channels["IN_1"], 0, self.servo_max)
       except:
           self.zeroize()
    def reverse(self, time):
       try:
          self.pwm.set_pwm(self.channels["IN_1"], 0, 0)
-         while True:
+         if True:
             self.pwm.set_pwm(self.channels["IN_2"], 0, self.servo_max)
       except:
           self.zeroize()

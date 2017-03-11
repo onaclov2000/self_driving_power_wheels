@@ -11,7 +11,7 @@ class MotorController:
 # Uncomment to enable debug output.
 #import logging
 #logging.basicConfig(level=logging.DEBUG)
-pwm = Adafruit_PCA9685.PCA9685()
+   pwm = Adafruit_PCA9685.PCA9685()
 # Initialise the PCA9685 using the default address (0x40).
    def __init__(self, channels, min=1000, max=3000):
       self.channels = channels

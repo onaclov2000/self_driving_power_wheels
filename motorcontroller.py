@@ -25,21 +25,29 @@ class MotorController:
       self.pwm.set_pwm(self.channels["INH_2"], 0, 4095)
 
    def zeroize(self):
-      for k in self.channels:
-         self.pwm.set_pwm(self.channels[k],0,0)
+     self.pwm.set_pwm(self.channels["IN_1"],0,0)
+     self.pwm.set_pwm(self.channels["IN_2"],0,0)
          
-   def forward(self, time):
+   def forward(self, t):
       try:
+         print self.channels["IN_2"],self.channels["IN_1"], self.channels["INH_1"], self.channels["INH_2"]
          self.pwm.set_pwm(self.channels["IN_2"], 0, 0)
          if True:
             self.pwm.set_pwm(self.channels["IN_1"], 0, self.servo_max)
       except:
+          print "Forward Exception"
           self.zeroize()
-   def reverse(self, time):
+      time.sleep(t)
+      self.zeroize()
+   def reverse(self, t):
       try:
+         print self.channels["IN_2"],self.channels["IN_1"], self.channels["INH_1"], self.channels["INH_2"]
          self.pwm.set_pwm(self.channels["IN_1"], 0, 0)
          if True:
             self.pwm.set_pwm(self.channels["IN_2"], 0, self.servo_max)
       except:
+          print "Reverse Exception"
           self.zeroize()
+      time.sleep(t)
+      self.zeroize()
       
